@@ -1,2 +1,1 @@
---help
-config
+config/credentials.php
