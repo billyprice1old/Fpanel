@@ -1,0 +1,8 @@
+<div class="small-12 columns detail">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis esse consequatur, consequuntur, earum enim eligendi! Consectetur cum soluta, nam, rem maiores deserunt laboriosam, excepturi repellat atque officiis ullam, et quia.</p>
+        <p>Facilis voluptatem beatae aperiam perferendis, velit nesciunt illo fugiat, rerum tenetur dignissimos, alias veritatis eos impedit recusandae autem expedita officia ea vel corrupti. Soluta laboriosam ea saepe dignissimos blanditiis, ex.</p>
+        <p>Voluptatem repellat odit incidunt cumque doloremque voluptatibus, quae, voluptatum. Pariatur sapiente accusantium eveniet alias atque vero dolorem incidunt iste illum corporis repudiandae, neque nam perspiciatis labore laudantium eum laboriosam voluptatem.</p>
+        <p>Voluptates dolore aliquid est necessitatibus distinctio sit cumque molestiae sed soluta doloremque autem possimus natus, debitis quia perferendis fugit aliquam iste ducimus animi, odit illum optio magni dolor? Nostrum, atque.</p>
+        <p>Quisquam voluptatum nam recusandae sint exercitationem cumque odit nulla qui, est impedit atque quos iusto dignissimos voluptas amet aliquid officia modi eius placeat laborum, illo magnam enim iure. Impedit, officiis!</p>
+        <p>Minima, non, quibusdam! Quod quisquam sint sapiente inventore sunt beatae, quam hic eum iusto. Rerum, rem, fugiat cum praesentium laboriosam sint, magnam facere dolor distinctio illum excepturi officia temporibus ipsum.</p>
+      </div>
