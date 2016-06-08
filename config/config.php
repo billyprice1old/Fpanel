@@ -1,7 +1,7 @@
 <?php
 //config.php
 
-define('PREFIX', 'nws_'); #Adds uniqueness to your DB table 
+define('PREFIX', 'frdm_'); #Adds uniqueness to your DB table 
 
 date_default_timezone_set('Asia/Bangkok'); #sets default date/timezone for this website
 
@@ -24,15 +24,18 @@ header("Cache-Control: no-cache");header("Expires: -1");#Helps stop browser & pr
 
 ///////Theme config////////////
 define('THEME','old_fashion');
+//////////////////////////////
 $layout = array(
     "left" => "2",
     "container" => "10",
     "right" => "0"
 );
+////////////////////////////////
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 //SET the VIEW_PAGE to show all the page view
 //set the condition to delete the extension of page
+//Do Not Make change this section.
 if (stripos(THIS_PAGE,".php") != -1){
   $this_page = explode('.',THIS_PAGE);
   define('VIEW_PAGE',$this_page[0]);

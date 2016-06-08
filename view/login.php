@@ -1,4 +1,4 @@
-<?php include 'include/head.php'; ?>
+
 	<div class="container">
 		<div class="small-12 medium-6 medium-offset-3 columns">
 			<div class="small-12 columns login-head">
@@ -13,4 +13,3 @@
 			</div>
 		</div>
 	</div>
-<?php include 'include/foot.php'; ?>
