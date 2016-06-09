@@ -2,8 +2,8 @@
 
 include 'config/config.php';
 
-include 'includes/header.php';
+include 'theme/'.THEME.'/header.php';
 
-include 'layout/index.php';
-include 'includes/footer.php';  
+include 'theme/'.THEME.'/layout/index.php';
+include 'theme/'.THEME.'/footer.php';  
     

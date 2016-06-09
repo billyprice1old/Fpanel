@@ -1,0 +1,82 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #e0e0e0;
+
+}
+.navbar{
+	width: 100%;
+	height: 50px;
+	background: rgba(155, 89, 182,1.0);
+	border-bottom: 5px solid rgba(142, 68, 173,1.0);
+	color: white;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.18);
+	line-height: 50px;
+	vertical-align: middle;
+	padding: 0 20px; 
+	margin-bottom: 20px;
+}
+.username{
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0 10px;
+}
+.console{
+	font-family: 'Inconsolata', ;
+	background: rgba(52, 73, 94,1.0);
+	color: #80cbc4;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.console-header{
+	padding: 5px;
+	margin: 0;
+	background: #333;
+	color: white;
+	font-weight: bold;
+}
+.shadow{
+	-webkit-box-shadow: 0px 0px 76px -12px rgba(0,0,0,0.79);
+	-moz-box-shadow: 0px 0px 76px -12px rgba(0,0,0,0.79);
+	box-shadow: 0px 0px 76px -12px rgba(0,0,0,0.79);
+}
+.login-head{
+	background: #9C27B0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 10px;
+	margin-top: 150px;
+}
+.login-form{
+	background: white;
+	color: #333;
+	padding: 20px;
+	border-bottom: 5px solid #9C27B0;
+}
+.app{
+	background: white;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}
+.app-label{
+	text-align: center;
+	padding: 10px;
+	background: #3498db;
+	color: white;
+	border-bottom: 5px solid #2980b9;
+	margin-bottom: 10px;
+}
+.app-label:hover{
+	background: #2980b9;
+}
+.detail-title{
+	background: #3498db;
+	color: white;
+	padding: 10px;
+}
+.detail{
+	background: white;
+	color: #333;
+}

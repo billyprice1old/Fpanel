@@ -1,0 +1,282 @@
+body{
+	background-color: #fff;
+	color: #333;
+	min-height: 100%;
+}
+.logo{
+	width: 35px;
+	margin-left: 5px;
+	margin-top: 7px;
+}
+.profile-small{
+	width: 35px;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+.tab-bar{
+	background-color: #344;
+}
+.main-section{
+	height: 100%;
+}
+
+.off-canvas-wrap{
+	margin: 0;
+}
+
+.no-padding{
+	padding: 0;
+	margin: 0;
+}
+.side-panel-icon{
+	padding: 10px 0;
+}
+.side-panel-icon a {
+	color: whitesmoke;
+}
+.side-panel-icon a:hover {
+	color: #888;
+}
+.text-center{
+	text-align: center;
+}
+.footer{
+	background: #334;
+	color: white;
+	height: 100px;
+	padding-top: 40px;
+	text-align: center;
+}
+.cover-photo{
+	height: 300px;
+	background: url('../img/profile/cover.jpg') no-repeat center center;
+	text-align: center;
+	padding-top: 50px;
+}
+.profile-pic{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.white{
+	color: white;
+}
+.profile-summary{
+	background: rgba(236, 240, 241,1.0);
+	color: #444;
+	margin: 5px 0;
+	padding: 20px;
+}
+.my-work{
+	text-align: center;
+	margin: 5px 0;
+}
+.panel-container{
+	border: 1px solid #999;
+	border-radius: 5px;
+	padding:0;
+	margin-top: 30px;
+	box-shadow: 0px 0px 2px #888;
+}
+.left-panel-area{
+	min-height: 500px;
+	background: rgba(44, 62, 80,1.0);
+	color: white;
+	padding: 0;
+}
+.left-panel-area ul {
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}.left-panel-area ul li{
+	padding: 10px 5px;
+	border-bottom: 1px solid rgba(149, 165, 166,0.5);
+	background: transparent;
+}
+.left-panel-area ul li a{
+	color: white;
+}
+.left-panel-area ul li:hover{
+	background: rgba(0, 0, 0,0.3);
+}
+.right-panel-area{
+
+}
+.profile-pic-area{
+	border: 1px solid #999;
+	border-radius: 10px;
+	min-height: 100px;
+	margin-top: 100px;
+	text-align: center;
+}
+.full-width{
+	width: 100%;
+	box-sizing: border-box;
+}
+.side-info{
+	background: rgba(44, 62, 80,1.0);
+	color: white;
+	min-height: 800px;
+	padding-top: 50px;
+	text-align: center;
+}
+.side-info img {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	border: 3px solid rgba(0, 0, 0,0.3);
+	border-radius: 5px;
+}
+.side-info .user-name{
+	font-size: 1.3em;
+	color: rgba(236, 240, 241,1.0);
+	margin-bottom: 0;
+}
+.side-info .user-role{
+	margin-bottom: 0;
+	color: rgba(189, 195, 199,1.0);
+}
+.side-info .user-email{
+	font-size: 0.8em;
+	font-style: italic;
+	color: rgba(127, 140, 141,1.0);
+	margin-bottom: 0;
+}
+.live-clock{
+	color: rgba(127, 140, 141,1.0);
+	font-size: 0.9em;
+}
+.white{
+	color: white;
+}
+.main-content{
+	box-shadow: -10px -7px 17px -6px #242424;
+	-webkit-box-shadow: -10px -7px 17px -6px #242424;
+	-moz-box-shadow: -10px -7px 17px -6px #242424;
+	-o-box-shadow: -10px -7px 17px -6px #242424;
+	min-height: 800px;
+}
+.welcome-area{
+	background: rgba(236, 240, 241,1.0);
+	margin-top: 10px;
+	margin-bottom: 20px;
+	min-height: 100px;
+	padding: 50px;
+}
+.no-bullet{
+	list-style-type: none;
+}
+.no-bullet li {
+	padding: 8px;
+	background: transparent;
+	border-bottom: 1px solid #ddd;
+}
+.no-bullet li:hover{
+	background: rgba(236, 240, 241,1.0);
+}
+.gallery-list{
+	background: transparent;
+	border-bottom: 1px solid #bdc3c7;
+	border-left: 3px solid #95a5a6;
+}
+.gallery-list:hover{
+	background: #ecf0f1;
+}
+.pos-area{
+	border: 1px solid rgba(236, 240, 241,1.0);
+	border-radius: 5px;
+}
+.add-me{
+	margin: 0;
+	padding: 2px 8px;
+	color: green;
+	border-radius: 5px;
+	float: right;
+}
+.add-me:hover{
+	background: green;
+	color: white;
+}
+.pos-result{
+	height: 50px;
+}
+.del-item{
+	margin: 0;
+	padding: 2px 8px;
+	color: #333;
+	border-radius: 5px;
+	float: right;
+}
+.del-item:hover{
+	color: red;
+}
+.theader{
+	border-right: 1px solid #333;
+}
+.msg-area{
+	margin-top: 40px;
+}
+
+@media(max-width: 1024px){
+	.cover-photo{
+		height: 200px;
+		padding-top: 30px;
+	}
+	.profile-pic{
+		width: 80px;
+		height: 80px;
+	}
+}
+@media(max-width: 800px){
+	.cover-photo{
+		height: 150px;
+		padding-top: 20px;
+	}
+	.profile-pic{
+		width: 50px;
+		height: 50px;
+	}
+}
+.no-right-border
+{
+	
+	border-right: none;
+	border-bottom:  1px solid #888;
+	border-top:  1px solid #888;
+}
+.no-left-border
+{
+	
+	border-left:  none;
+	border-bottom:  1px solid #888;
+	border-top:  1px solid #888;
+}
+table.hover tr:hover {
+  background-color: #f9f9f9; }
+
+table.hover tr:nth-of-type(even):hover {
+  background-color: #ececec; }
+table.center thead tr th
+  {
+      text-align: center;
+  }
+table.border tr td:not(.no-right-border)
+{
+    border : 1px solid #888;   
+}
+
+table.border tr th
+{
+    border : 1px solid #888;   
+}
+table.scroll{
+  display: block;
+  width: 100%;
+  overflow-y: scroll;
+  }
+ 
+ 
+table.no-border tbody tr td,th
+{
+    border : none;   
+} 

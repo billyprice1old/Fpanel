@@ -23,11 +23,11 @@ ob_start();  #buffers our page to be prevent header errors. Call before INC file
 header("Cache-Control: no-cache");header("Expires: -1");#Helps stop browser & proxy caching
 
 ///////Theme config////////////
-define('THEME','old_fashion');
+define('THEME','nws');
 //////////////////////////////
 $layout = array(
-    "left" => "2",
-    "container" => "10",
+    "left" => "3",
+    "container" => "9",
     "right" => "0"
 );
 ////////////////////////////////
