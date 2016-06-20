@@ -162,7 +162,7 @@ function format_date($str_date,$format)
 
 #dumDie is a function you may need to use to find the error 
 #this function is create from var_dump
-function dumDie($var){
+function dumpDie($var){
     echo '<pre>';
     var_dump($var);
     echo '</pre>';

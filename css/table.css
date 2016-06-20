@@ -1,0 +1,5 @@
+table.border, th, td {
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    color: #444;
+}

@@ -1,0 +1,14 @@
+<nav class="small-12 columns">
+    <span class="left">
+      <i class="fa fa-ellipsis-h fa-lg"></i>
+      <span>Souris</span>
+    </span>
+    <span class="right">
+      <span id="ct"> </span>
+      <i class="fa fa-power-off"></i>
+    </span>
+  </nav>
+  <section class="small-12 columns title">
+    <a href="index.php">Fpanel</a>
+  </section>				
+<!-- end nav -->
