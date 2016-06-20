@@ -34,6 +34,69 @@ function db_get($table){
     
     return $res;
 }
+
+/*
+This is the simplest, most understood Join and is the most common.
+*/
+function db_get_inner_join($table,$table_b,$col){
+    $res = array();
+    $iConn = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);//connect to database
+    $query = "Select * from $table as A INNER JOIN $table_b as B ON A.$col = B.$col";
+    $result = mysqli_query($iConn,$query) or die(mysqli_error($iConn));
+    while ($row = mysqli_fetch_array($result)) {
+        array_push($res,$row);
+    }
+    
+    return $res;
+}
+/*
+This query will return all of the records in the left table (table A) 
+regardless if any of those records have a match in the right table (table B).
+It will also return any matching records from the right table.
+*/
+function db_get_left_join($table,$table_b,$col){
+    $res = array();
+    $iConn = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);//connect to database
+    $query = "Select * from $table as A LEFT JOIN $table_b as B ON A.$col = B.$col";
+    $result = mysqli_query($iConn,$query) or die(mysqli_error($iConn));
+    while ($row = mysqli_fetch_array($result)) {
+        array_push($res,$row);
+    }
+    
+    return $res;
+}
+/*
+This query will return all of the records in the right table (table B) 
+regardless if any of those records have a match in the left table (table A). 
+It will also return any matching records from the left table.
+*/
+function db_get_right_join($table,$table_b,$col){
+    $res = array();
+    $iConn = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);//connect to database
+    $query = "Select * from $table as A RIGHT JOIN $table_b as B ON A.$col = B.$col";
+    $result = mysqli_query($iConn,$query) or die(mysqli_error($iConn));
+    while ($row = mysqli_fetch_array($result)) {
+        array_push($res,$row);
+    }
+    
+    return $res;
+}
+/*
+This Join can also be referred to as a FULL OUTER JOIN or a FULL JOIN. 
+This query will return all of the records from both tables, joining records from the left table (table A) 
+that match records from the right table (table B).
+*/
+function db_get_outer_join($table,$table_b,$col){
+    $res = array();
+    $iConn = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);//connect to database
+    $query = "Select * from $table as A FULL OUTER JOIN $table_b as B ON A.$col = B.$col";
+    $result = mysqli_query($iConn,$query) or die(mysqli_error($iConn));
+    while ($row = mysqli_fetch_array($result)) {
+        array_push($res,$row);
+    }
+    
+    return $res;
+}
 function db_get_limit($table,$start,$num){
     $res = array();
     $iConn = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);//connect to database

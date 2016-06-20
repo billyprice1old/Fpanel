@@ -1,5 +1,6 @@
 
     <div class="container">
+        <!--Customers -->
         <div class="small-12 columns big-menu">
             <div class="small-12 columns title-row">
             
@@ -21,9 +22,29 @@
           </a>    
           </div>
         </div>
-        
-        
-        
+        <!--Hosting -->
+       <div class="small-12 columns big-menu">
+        <div class="small-12 columns title-row">
+          <img src="<?=IMG_PATH?>hosting.png" alt="hosting" title="hosting" class="title-icon">
+          <span class="section-title">Hosting</span>
+        </div>
+        <div class="small-12 columns">
+          <a href="host_new.php" class="grey-color">
+            <div class="small-6 medium-3 columns small-item">
+              <img src="<?=IMG_PATH?>newhosting.png" alt="Newhosting">
+              <span>New</span>
+            </div>
+          </a>
+
+          <a href="host_list.php" class="grey-color">
+            <div class="small-6 medium-3 columns small-item">
+              <img src="<?=IMG_PATH?>listhosting.png" alt="listhosting">
+              <span>List</span>
+            </div>
+          </a>
+        </div>
+      </div>
+       <!--Domain -->
       <div class="small-12 columns big-menu">
         <div class="small-12 columns title-row">
           <img src="<?=IMG_PATH?>domain.png" alt="domain" title="domain" class="title-icon">
@@ -140,27 +161,7 @@
         </div>
       </div>
 
-      <div class="small-12 columns big-menu">
-        <div class="small-12 columns title-row">
-          <img src="<?=IMG_PATH?>hosting.png" alt="hosting" title="hosting" class="title-icon">
-          <span class="section-title">Hosting</span>
-        </div>
-        <div class="small-12 columns">
-          <a href="#" class="grey-color">
-            <div class="small-6 medium-3 columns small-item">
-              <img src="<?=IMG_PATH?>newhosting.png" alt="Newhosting">
-              <span>New</span>
-            </div>
-          </a>
 
-          <a href="#" class="grey-color">
-            <div class="small-6 medium-3 columns small-item">
-              <img src="<?=IMG_PATH?>listhosting.png" alt="listhosting">
-              <span>List</span>
-            </div>
-          </a>
-        </div>
-      </div>
 
     </div>
 
