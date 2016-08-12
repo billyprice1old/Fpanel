@@ -61,11 +61,16 @@ if (!isset($_POST['submit']))
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
         ';
-  shell_exec("sudo echo '".$str_host."' >> /etc/apache2/sites-available/".$domain.".conf");
-  $resutl .= shell_exec("sudo a2ensite ".$domain.".conf");
-  $resutl .= '<br>';
-  $resutl .= shell_exec("sudo service apache2 reload");
-  $resutl .= '<br>';
+        $result=""; 
+
+  shell_exec("sudo chmod 777 /etc/apache2/sites-available");
+  echo shell_exec("sudo echo '".$str_host."' >> /etc/apache2/sites-available/".$domain.".conf");
+  shell_exec("sudo chown root:root /etc/apache2/sites-available/".$domain.".conf");
+  echo shell_exec("sudo a2ensite ".$domain.".conf");
+  echo '<br>';
+  echo shell_exec("sudo service apache2 reload");
+  echo '<br>';
+  shell_exec("sudo chmod 755 /etc/apache2/sites-available");
   //inital the hosting setup
   ///Add the hosting information into databse
   $data = array('CustomerID' =>$_POST['clID'],
@@ -82,6 +87,7 @@ if (!isset($_POST['submit']))
    </div>
    <a href="'.THIS_PAGE.'" class="flat-green button">Add more</a><a href="index.php" class="flat-green button">Home</a>
   ';
+
 }
 ?>
 </div>

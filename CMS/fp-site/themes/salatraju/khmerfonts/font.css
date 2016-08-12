@@ -1,0 +1,77 @@
+@font-face
+{
+font-family: Kh_content;
+src: url(Fonts/KhmerOScontent.ttf);
+}
+@font-face
+{
+font-family: Kh_Pali;
+src: url(Fonts/KhmerOSmuolpali.ttf);
+}
+@font-face
+{
+font-family: Kh_MuolLight;
+src: url(Fonts/KhmerOSmuollight.ttf);
+}
+@font-face
+{
+font-family: Kh_Bokor;
+src: url(Fonts/KhmerOSbokor.ttf);
+}
+@font-face
+{
+font-family: LimonS;
+src: url(Fonts/LimonS1.ttf);
+}
+.Kcon
+{
+font-family:Kh_content;
+}
+.Kpali
+{
+font-family:Kh_Pali;
+}
+.Kmuol
+{
+font-family:Kh_MuolLight;
+}
+.Kbok
+{
+font-family:Kh_Bokor;
+}
+.tiny
+{
+font-size: 0.5rem;	
+}
+.small
+{
+font-size: 1rem;
+}
+.big
+{
+font-size: 1.5rem;
+}
+.xl
+{
+font-size: 2rem;
+}
+.tcentered
+{
+text-align: center;
+}
+.tright
+{
+text-align: right;	
+}
+.tleft
+{
+	text-align: left;
+}
+tdanger
+{
+	background: royalblue;
+}
+table.tcentered th, table.tcentered td
+{
+	text-align: center;
+}

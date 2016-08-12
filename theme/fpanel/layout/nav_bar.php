@@ -5,7 +5,7 @@
     </span>
     <span class="right">
       <span id="ct"> </span>
-      <i class="fa fa-power-off"></i>
+      <a href="logout.php"><i class="fa fa-power-off"></i></a>
     </span>
   </nav>
   <section class="small-12 columns title">

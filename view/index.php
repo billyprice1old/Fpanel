@@ -1,4 +1,6 @@
-
+<?php
+include PHYSICAL_PATH.'library/admin.php';
+?>
     <div class="container">
         <!--Customers -->
         <div class="small-12 columns big-menu">

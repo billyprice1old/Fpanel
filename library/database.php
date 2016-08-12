@@ -97,6 +97,7 @@ function db_get_outer_join($table,$table_b,$col){
     
     return $res;
 }
+
 function db_get_limit($table,$start,$num){
     $res = array();
     $iConn = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);//connect to database
@@ -108,6 +109,7 @@ function db_get_limit($table,$start,$num){
     
     return $res;
 }
+
 function db_get_where($table,$col,$value){
     $res = array();
     $iConn = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);//connect to database

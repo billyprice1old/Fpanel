@@ -1,3 +1,8 @@
+<?php
+if(SESSION == true){
+    session_start();//session start
+}
+?>
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>

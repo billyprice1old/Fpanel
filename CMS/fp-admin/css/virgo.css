@@ -1,0 +1,100 @@
+tiny,td.tiny,tr.tiny,label.tiny,
+span.tiny,input.tiny,a.tiny
+{
+  font-size: 0.6em; }
+small,td.small,tr.small,th.small,label.small,span.small,input.small,a.small,
+button.small
+{
+  font-size: 0.8em; }
+center,tr.center,td.center,th.center
+{
+text-align: center;
+}
+.tabs-title > a{
+  padding: 1.25rem 0.5rem;
+}
+select{
+  padding: 10px 25px 0px 10px;
+}
+.container{
+  padding: 10px 1%;
+}
+.big-menu{
+  margin: 10px;
+}
+.sub-left-side-bar .dragdrog > .col-2{
+  width: 48%;
+  float: left;
+  margin: 5px;
+  
+  padding: 10px;  
+}
+#sidebar_left ul{
+  background: purple;
+}
+#sidebar_left ul > li > ul{
+  background: red;
+}
+#sidebar_left > li,#sidebar_right > li{
+  width: 93%;
+  padding-left:10px;
+}
+.sub-left-side-bar >ul> li{
+  background: #64B5F6;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+}
+.menu-header a
+{
+  background:  #0D47A1;
+  padding: 20px;
+  margin: 20px;
+}
+.fa-times{
+  cursor: pointer;
+}
+a,p, blockquote,label,input {
+    font-family: Arial, Helvetica, sans-serif ,'Kh_content';
+}
+h1,h2,h3,h4,h5,
+h3>a{
+    font-family: 'Kh_MuolLight';
+    line-height: 2em;
+}
+tiny,td.tiny,tr.tiny,label.tiny,
+span.tiny,input.tiny,a.tiny
+{
+  font-size: 0.6em; }
+small,td.small,tr.small,th.small,label.small,span.small,input.small,a.small,
+button.small
+{
+  font-size: 0.8em; }
+
+p{
+  text-align: justify;
+}
+
+iframe{
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif ,'Kh_content';
+}
+.post-thumb img{
+  max-width: 100%;
+}
+.banner{
+  background: #af833c;
+}
+.big-banner{
+  background: #af833c;
+}
+blockquote{
+  color: #2196f3;
+  font-weight: bold;
+}
+blockquote > p{
+  color: #2196f3;
+}
+.dragdrog{
+  min-height: 50px;
+}

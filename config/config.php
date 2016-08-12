@@ -12,7 +12,9 @@ define('PHYSICAL_PATH', '/var/www/html/fpanel/');
 define('INCLUDE_PATH', PHYSICAL_PATH . 'includes/'); 
 # Path to PHP include files - INSIDE APPLICATION ROOT
 define('IMG_PATH',VIRTUAL_PATH.'view/img/');
-
+#define session to use or not
+define('SESSION',true);
+define('KEY_ENCRYPT','200987');
 /*
  * reference required include files here
  */
